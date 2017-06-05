@@ -1,3 +1,6 @@
-for (var i = 0; i < process.argv.length; i++){
-	process.argv[i]
+var sum = 0
+for (var i = 2; i < Number(process.argv.length); i++){
+	sum += Number(process.argv[i])
 }
+
+console.log('Message: Total sum is: ' + sum)
